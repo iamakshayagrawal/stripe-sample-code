@@ -16,7 +16,7 @@ app = Flask(__name__,
             static_url_path='',
             static_folder='.')
 
-YOUR_DOMAIN = 'http://localhost:4242'
+YOUR_DOMAIN = 'https://stripe-sample-code.herokuapp.com/'
 
 @app.route('/create-session', methods=['POST'])
 def create_checkout_session():
